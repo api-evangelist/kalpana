@@ -1,8 +1,24 @@
 aid: kalpana
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kalpana.png
 name: Kalpana
-description: Kalpana is a company surfaced as a portfolio company of canaan-partners, kleiner-perkins
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Kalpana, Inc. was a Sunnyvale, California networking hardware company
+  founded in 1990 by Vinod Bhardwaj and Larry Blair that built the first Ethernet
+  switch, the seven-port EtherSwitch, and pioneered EtherChannel link aggregation and
+  the Virtual LAN (VLAN) concept. The company was acquired by Cisco Systems in 1994
+  and has been defunct as an independent entity ever since, with its technology absorbed
+  into Cisco's Catalyst switching product line. There is no surviving developer portal,
+  API, or public developer surface associated with the original Kalpana, Inc.
 url: https://raw.githubusercontent.com/api-evangelist/kalpana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,34 @@ x-backed-by:
 - canaan-partners
 - kleiner-perkins
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-acquired-by: cisco
+x-acquired-year: 1994
+x-enrichment-note: Identified as the historical Kalpana, Inc. (LAN switching, acquired
+  by Cisco 1994) via the Kleiner Perkins portfolio record (sector hardtech, status
+  acquired, is_api_provider false) and Wikipedia. No live API, domain, docs, or developer
+  surface exists to enrich. Not to be confused with unrelated modern companies of the
+  same name (e.g. kalpana.dev). No fabricated artifacts were created.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Networking
+- Ethernet
+- Switching
+- Hardware
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
