@@ -35,7 +35,7 @@ x-enrichment-note: Identified as the historical Kalpana, Inc. (LAN switching, ac
   acquired, is_api_provider false) and Wikipedia. No live API, domain, docs, or developer
   surface exists to enrich. Not to be confused with unrelated modern companies of the
   same name (e.g. kalpana.dev). No fabricated artifacts were created.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
